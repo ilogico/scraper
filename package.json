@@ -1,0 +1,30 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^11.3.0",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^21.2.1",
+    "webpack": "^3.8.1"
+  }
+}
